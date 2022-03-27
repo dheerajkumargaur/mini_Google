@@ -3,6 +3,9 @@ import { HomePage } from "./Components/HomePage";
 import { SearchPage } from "./Components/SearchPage";
 import { Route, Routes } from "react-router-dom";
 function App() {
+  <link rel="shortcut icon" type="image/x-icon" href="./google.svg" />;
+
+  document.title = "Mini Google";
   return (
     <div className="App">
       <Routes>
