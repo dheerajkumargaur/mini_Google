@@ -16,7 +16,7 @@ const reducer = ( store = initalState , { type , payload}) =>{
 
         case SORT_ASC :{
             function compareStrings(a, b) {
-                // Assuming you want case-insensitive comparison
+               
                 a = a.toLowerCase();
                 b = b.toLowerCase();
 
@@ -35,7 +35,7 @@ const reducer = ( store = initalState , { type , payload}) =>{
         }
         case SORT_DATE_ASC :{
             function compareStrings(a, b) {
-                // Assuming you want case-insensitive comparison
+            
                 a = a.toLowerCase();
                 b = b.toLowerCase();
 
@@ -55,7 +55,7 @@ const reducer = ( store = initalState , { type , payload}) =>{
 
         case SORT_DESC :{
             function compareStrings(a, b) {
-                // Assuming you want case-insensitive comparison
+              
                 a = a.toLowerCase();
                 b = b.toLowerCase();
 
@@ -75,7 +75,7 @@ const reducer = ( store = initalState , { type , payload}) =>{
 
         case SORT_DATE_DESC :{
             function compareStrings(a, b) {
-                // Assuming you want case-insensitive comparison
+             
                 a = a.toLowerCase();
                 b = b.toLowerCase();
 

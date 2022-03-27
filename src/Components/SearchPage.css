@@ -1,0 +1,88 @@
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+    .logo{
+            font-size: 40px;
+            font-family: sans-serif;
+            font-family: bolder;
+             width: 200px;
+    }
+            .G{ color: #3685F7 ; }
+            .o{ color: #F32D2D ;}
+            .o2 { color: #F9BA41;}
+            .g{ color : #3385F9}
+            .l{ color : #3AB05A}
+            .e{ color: #F42E31 ;}
+        
+    .searchBox{
+        width: 550px;
+        height: 40px;
+        padding-left: 20px;
+        font-size: 18px;
+        border-radius: 50px 0px 0px 50px ;
+        border-right: 0px;
+        outline: none;
+        border: none;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .search{
+         width: 100px;
+         font-size: 17px;
+        height: 41px;
+          border-left: 0px;
+          cursor: pointer;
+         border-radius: 0px 50px 50px 0px ;
+          outline: none;
+        border: none;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+.sortBox{
+    display: flex;
+  
+    width: 73%;
+    gap: 10px;
+    margin: auto;
+      margin-top: 40px;
+   }
+    button{
+        min-width: 100px;
+    }
+
+ .search-result{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+       }
+        .detailed-result{
+             width: 73%;
+            margin: auto;
+            margin-top: 10px;
+            box-sizing: border-box;
+            padding: 20px;
+            background-image: linear-gradient( white 90%, rgba(68, 68, 68, 0.041));
+        }
+            .titleBox{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .title{
+                font-size: 25px;
+                text-decoration: none;
+                color: #660099;
+                font-family: sans-serif;
+            }
+            .des{
+                width: 700px;
+            }
+
+.text-left{
+    text-align: left;
+}
+.bold{
+    font-weight: 700;
+}
